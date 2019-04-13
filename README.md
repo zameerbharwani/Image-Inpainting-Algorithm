@@ -1,4 +1,4 @@
-# Image-Reconstruction-Algorithm
+# Image Reconstruction Algorithm
 
 Creating from scratch the image in-painting algorithm suggested by Rodriguez et. al (paper included in repo)
 
