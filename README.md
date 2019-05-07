@@ -16,9 +16,9 @@ The proposed solution is a three part solution that measures intensity similarit
 
 Algorithm:
 
-1) Using a priority function, determine which missing patch to fill in next (target patch). The chosen target patch is along the perimiter of the missing region, where the patch is partially overlapping with a non and unknown set of pixels.
+1) Using a priority function, determine which missing patch to fill in next (target patch). The chosen target patch is along the perimiter of the missing region, where the patch is partially overlapping with a set of known and unknown pixels.
 
-2) Using a nonlocal texture similarity (NLTS) function, determine candidate patches (number of candidate patches is a hyperparameter, call it λ) The function treats the original image to be composed of overlapping smaller patches and since it is a nonlocal function, the NLTS function finds the best candidate patches across the entire image that can help fill in the missing pixels in the target patch. 
+2) Using a nonlocal texture similarity (NLTS) function, determine candidate patches (number of candidate patches is a hyperparameter, call it λ). The function treats the original image to be composed of overlapping smaller patches and since it is a nonlocal function, the NLTS function finds the best candidate patches across the entire image that can help fill in the missing pixels in the target patch. 
 
 3) To determine the pixel values of the missing pixels in the target patch (intensity matching), use an alpha-trimmed mean filter (α is a hyperparameter). 
 
@@ -27,3 +27,5 @@ Alpha-trimmed mean filter:
 For each missing pixel in the target patch, determine the corresponing pixel intensity at the same co-ordinate of all the candidate patches and sort them in ascending order. Drop the αλ largest and smallest values. Sum the remaining intensity values and normalize by dividing by λ-2αλ. 
 
 The above algorithm is repeated until all target patches are filled. 
+
+We use the alpha-trimmed mean instead of the full mean because it is less sensitive to outliers in the candidate patches.
