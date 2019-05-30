@@ -30,11 +30,14 @@ The above algorithm is repeated until all target patches are filled.
 We use the alpha-trimmed mean instead of the full mean because it is less sensitive to outliers in the candidate patches.
 
 
-Below is a sample run of our implementation of the algorithm:
+Below are two sample runs of our implementation of the algorithm:
 
-![Alt Text](html/iterations_2.gif)
+![Missing_Person](html/iterations_2.gif)
 
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+
+![Missing_Tree](html/iterations_2_tree.gif)
+
+
 
 
 
