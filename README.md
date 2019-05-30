@@ -34,3 +34,7 @@ Below is a sample run of our implementation of the algorithm:
 
 ![Alt Text](html/iterations_2)
 
+![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+
+
+
