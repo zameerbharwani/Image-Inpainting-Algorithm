@@ -30,7 +30,7 @@ The above algorithm is repeated until all target patches are filled.
 We use the alpha-trimmed mean instead of the full mean because it is less sensitive to outliers in the candidate patches.
 
 
-Below are two sample runs of our implementation of the algorithm:
+Below are two sample runs of our implementation of the algorithm. The red box indicates the chosen missing patch and the blue boxes indicate the λ candidate patches
 
 ![Missing_Person](html/iterations_2.gif)
 
