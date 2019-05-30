@@ -28,3 +28,9 @@ For each missing pixel in the target patch, determine the corresponing pixel int
 The above algorithm is repeated until all target patches are filled. 
 
 We use the alpha-trimmed mean instead of the full mean because it is less sensitive to outliers in the candidate patches.
+
+
+Below is a sample run of our implementation of the algorithm:
+
+![Alt Text](html/iterations_2)
+
