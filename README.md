@@ -32,7 +32,7 @@ We use the alpha-trimmed mean instead of the full mean because it is less sensit
 
 Below is a sample run of our implementation of the algorithm:
 
-![Alt Text](html/iterations_2)
+![Alt Text](html/iterations_2.gif)
 
 ![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
 
