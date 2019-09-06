@@ -2,9 +2,9 @@
 
 Creating from scratch (in MATLAB) the image in-painting algorithm proposed by Rodriguez et. al (paper included in repo)
 
-**_For complete write up, download the repo and open html/main.hmtl for the code + explanation of work_**.
+**_For complete write up, download the repo and open html/main.hmtl for the code + explanation of work_** (or visit https://ece.uwaterloo.ca/~ece417/Projects/2019/Project13/html/main.html)
 
-In collaboration with Thomas Akdeniz and Kristoff Malejczuk.
+In collaboration with Thomas Akdeniz and Kristoff Malejczuk. Placed in the Top 5 (https://ece.uwaterloo.ca/~ece417/projects2019.html)
 
 # Summary
 
