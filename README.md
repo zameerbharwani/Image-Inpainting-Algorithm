@@ -1,6 +1,6 @@
 # Image Reconstruction Algorithm
 
-Creating from scratch (in MATLAB) the image in-painting algorithm proposed by Rodriguez et. al (paper included in repo) for UW ECE 417 final project.
+Creating from scratch (in MATLAB) the image in-painting algorithm proposed by Rodriguez et. al (paper included in repo).
 
 **_For complete write up, download the repo and open html/main.hmtl for the code + explanation of work_**
 
